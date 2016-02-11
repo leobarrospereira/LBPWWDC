@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DD6880D9F7863E6406A1C0 /* Pods_LBPWWDC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5007C9CC049CA33BC4740C1B /* Pods_LBPWWDC.framework */; };
+		1EA3BFF0AA7261B11C0BF7D4 /* Pods_LBPWWDCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954AC1C2AEE357DD37CB2105 /* Pods_LBPWWDCTests.framework */; };
+		A72DF2D31C3AD9AC0091C5C4 /* SessionViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72DF2D21C3AD9AC0091C5C4 /* SessionViewModelTests.m */; };
+		A72DF2D91C3AEC2C0091C5C4 /* SessionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72DF2D81C3AEC2C0091C5C4 /* SessionDetailsViewController.m */; };
+		A72DF2DE1C3AF3580091C5C4 /* Platform+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A72DF2DB1C3AF3580091C5C4 /* Platform+CoreDataProperties.m */; };
+		A72DF2DF1C3AF3580091C5C4 /* Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = A72DF2DD1C3AF3580091C5C4 /* Platform.m */; };
+		A72DF2E11C3B03AF0091C5C4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72DF2E01C3B03AF0091C5C4 /* AVKit.framework */; };
+		A7BB3B731C3B09A9009C46B3 /* JsonUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BB3B721C3B09A9009C46B3 /* JsonUtilsTests.m */; };
+		A7DF7D8B1C3C272F007CCF97 /* SessionDetailsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DF7D8A1C3C272F007CCF97 /* SessionDetailsViewControllerTests.m */; };
+		A7E3F0BE1C341715009A68FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0BD1C341715009A68FB /* main.m */; };
+		A7E3F0C11C341715009A68FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0C01C341715009A68FB /* AppDelegate.m */; };
+		A7E3F0C71C341715009A68FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E3F0C51C341715009A68FB /* Main.storyboard */; };
+		A7E3F0CA1C341715009A68FB /* LBPWWDC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0C81C341715009A68FB /* LBPWWDC.xcdatamodeld */; };
+		A7E3F0CC1C341715009A68FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E3F0CB1C341715009A68FB /* Assets.xcassets */; };
+		A7E3F0CF1C341715009A68FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E3F0CD1C341715009A68FB /* LaunchScreen.storyboard */; };
+		A7E3F0EF1C341E03009A68FB /* Session+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0EA1C341E03009A68FB /* Session+CoreDataProperties.m */; };
+		A7E3F0F01C341E03009A68FB /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0EC1C341E03009A68FB /* Session.m */; };
+		A7E3F0F51C341F29009A68FB /* SessionServices.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0F41C341F29009A68FB /* SessionServices.m */; };
+		A7E3F0F81C342DC1009A68FB /* URLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0F71C342DC1009A68FB /* URLSessionManager.m */; };
+		A7E3F0FD1C3434F7009A68FB /* Session+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F0FC1C3434F7009A68FB /* Session+Create.m */; };
+		A7E3F1011C3435DB009A68FB /* JsonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F1001C3435DB009A68FB /* JsonUtils.m */; };
+		A7E3F1041C3439F0009A68FB /* Platform+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F1031C3439F0009A68FB /* Platform+Create.m */; };
+		A7E3F1091C34407C009A68FB /* SessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F1081C34407C009A68FB /* SessionTests.m */; };
+		A7E3F10B1C344BFA009A68FB /* PlatformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F10A1C344BFA009A68FB /* PlatformTests.m */; };
+		A7E3F10E1C344C71009A68FB /* TestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F10D1C344C71009A68FB /* TestUtils.m */; };
+		A7E3F1101C344E1F009A68FB /* SessionServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F10F1C344E1F009A68FB /* SessionServicesTests.m */; };
+		A7E3F1121C345054009A68FB /* sessions.json in Resources */ = {isa = PBXBuildFile; fileRef = A7E3F1111C345054009A68FB /* sessions.json */; };
+		A7E3F1151C346138009A68FB /* SessionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F1141C346138009A68FB /* SessionsListViewController.m */; };
+		A7E3F1191C34628A009A68FB /* SessionsListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F1181C34628A009A68FB /* SessionsListViewModel.m */; };
+		A7E3F11D1C3467D7009A68FB /* SessionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F11C1C3467D7009A68FB /* SessionViewModel.m */; };
+		A7E3F1201C346AFD009A68FB /* SessionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E3F11F1C346AFD009A68FB /* SessionCell.m */; };
+		A7FA019F1C3AADC7009216B9 /* SessionsListViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FA019E1C3AADC7009216B9 /* SessionsListViewModelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7E3F0D61C341715009A68FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7E3F0B11C341714009A68FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E3F0B81C341714009A68FB;
+			remoteInfo = LBPWWDC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C1FFC27C94E80BC2F5CD8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5007C9CC049CA33BC4740C1B /* Pods_LBPWWDC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBPWWDC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A2B8480B1B50E8D4401403 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9C047DDD58766A784D046D /* Pods-LBPWWDC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBPWWDC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBPWWDC/Pods-LBPWWDC.debug.xcconfig"; sourceTree = "<group>"; };
+		954AC1C2AEE357DD37CB2105 /* Pods_LBPWWDCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBPWWDCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DF2D21C3AD9AC0091C5C4 /* SessionViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewModelTests.m; sourceTree = "<group>"; };
+		A72DF2D71C3AEC2C0091C5C4 /* SessionDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailsViewController.h; sourceTree = "<group>"; };
+		A72DF2D81C3AEC2C0091C5C4 /* SessionDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailsViewController.m; sourceTree = "<group>"; };
+		A72DF2DA1C3AF3580091C5C4 /* Platform+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Platform+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A72DF2DB1C3AF3580091C5C4 /* Platform+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Platform+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A72DF2DC1C3AF3580091C5C4 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		A72DF2DD1C3AF3580091C5C4 /* Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Platform.m; sourceTree = "<group>"; };
+		A72DF2E01C3B03AF0091C5C4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A7BB3B721C3B09A9009C46B3 /* JsonUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtilsTests.m; sourceTree = "<group>"; };
+		A7DF7D8A1C3C272F007CCF97 /* SessionDetailsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailsViewControllerTests.m; sourceTree = "<group>"; };
+		A7E3F0B91C341714009A68FB /* LBPWWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBPWWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E3F0BD1C341715009A68FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7E3F0BF1C341715009A68FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7E3F0C01C341715009A68FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7E3F0C61C341715009A68FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7E3F0C91C341715009A68FB /* LBPWWDC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LBPWWDC.xcdatamodel; sourceTree = "<group>"; };
+		A7E3F0CB1C341715009A68FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7E3F0CE1C341715009A68FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7E3F0D01C341715009A68FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E3F0D51C341715009A68FB /* LBPWWDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBPWWDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E3F0DB1C341715009A68FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E3F0E41C3419C8009A68FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A7E3F0E91C341E03009A68FB /* Session+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Session+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A7E3F0EA1C341E03009A68FB /* Session+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Session+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A7E3F0EB1C341E03009A68FB /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		A7E3F0EC1C341E03009A68FB /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		A7E3F0F31C341F29009A68FB /* SessionServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionServices.h; sourceTree = "<group>"; };
+		A7E3F0F41C341F29009A68FB /* SessionServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionServices.m; sourceTree = "<group>"; };
+		A7E3F0F61C342DC1009A68FB /* URLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLSessionManager.h; sourceTree = "<group>"; };
+		A7E3F0F71C342DC1009A68FB /* URLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLSessionManager.m; sourceTree = "<group>"; };
+		A7E3F0FB1C3434F7009A68FB /* Session+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Session+Create.h"; sourceTree = "<group>"; };
+		A7E3F0FC1C3434F7009A68FB /* Session+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Session+Create.m"; sourceTree = "<group>"; };
+		A7E3F0FF1C3435DB009A68FB /* JsonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonUtils.h; sourceTree = "<group>"; };
+		A7E3F1001C3435DB009A68FB /* JsonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtils.m; sourceTree = "<group>"; };
+		A7E3F1021C3439F0009A68FB /* Platform+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Platform+Create.h"; sourceTree = "<group>"; };
+		A7E3F1031C3439F0009A68FB /* Platform+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Platform+Create.m"; sourceTree = "<group>"; };
+		A7E3F1081C34407C009A68FB /* SessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionTests.m; sourceTree = "<group>"; };
+		A7E3F10A1C344BFA009A68FB /* PlatformTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformTests.m; sourceTree = "<group>"; };
+		A7E3F10C1C344C71009A68FB /* TestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUtils.h; sourceTree = "<group>"; };
+		A7E3F10D1C344C71009A68FB /* TestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtils.m; sourceTree = "<group>"; };
+		A7E3F10F1C344E1F009A68FB /* SessionServicesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionServicesTests.m; sourceTree = "<group>"; };
+		A7E3F1111C345054009A68FB /* sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sessions.json; path = Stubs/sessions.json; sourceTree = "<group>"; };
+		A7E3F1131C346138009A68FB /* SessionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsListViewController.h; sourceTree = "<group>"; };
+		A7E3F1141C346138009A68FB /* SessionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsListViewController.m; sourceTree = "<group>"; };
+		A7E3F1171C34628A009A68FB /* SessionsListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionsListViewModel.h; sourceTree = "<group>"; };
+		A7E3F1181C34628A009A68FB /* SessionsListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsListViewModel.m; sourceTree = "<group>"; };
+		A7E3F11B1C3467D7009A68FB /* SessionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionViewModel.h; sourceTree = "<group>"; };
+		A7E3F11C1C3467D7009A68FB /* SessionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewModel.m; sourceTree = "<group>"; };
+		A7E3F11E1C346AFD009A68FB /* SessionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionCell.h; sourceTree = "<group>"; };
+		A7E3F11F1C346AFD009A68FB /* SessionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionCell.m; sourceTree = "<group>"; };
+		A7FA019E1C3AADC7009216B9 /* SessionsListViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionsListViewModelTests.m; sourceTree = "<group>"; };
+		AA8F495A62236B568A4DC73D /* Pods-LBPWWDCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBPWWDCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBPWWDCTests/Pods-LBPWWDCTests.release.xcconfig"; sourceTree = "<group>"; };
+		C62B808BC4AC1D249F2329FA /* Pods-LBPWWDCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBPWWDCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBPWWDCTests/Pods-LBPWWDCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E307CDB677BC022F10A267 /* Pods-LBPWWDC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBPWWDC.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBPWWDC/Pods-LBPWWDC.release.xcconfig"; sourceTree = "<group>"; };
+		E620361D1197D0351C9F715A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E3F0B61C341714009A68FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72DF2E11C3B03AF0091C5C4 /* AVKit.framework in Frameworks */,
+				09DD6880D9F7863E6406A1C0 /* Pods_LBPWWDC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E3F0D21C341715009A68FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA3BFF0AA7261B11C0BF7D4 /* Pods_LBPWWDCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCD7163C93268E3759D9A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72DF2E01C3B03AF0091C5C4 /* AVKit.framework */,
+				68A2B8480B1B50E8D4401403 /* Pods.framework */,
+				5007C9CC049CA33BC4740C1B /* Pods_LBPWWDC.framework */,
+				954AC1C2AEE357DD37CB2105 /* Pods_LBPWWDCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D1E1681FB4BF8278B38E354 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C1FFC27C94E80BC2F5CD8E /* Pods.debug.xcconfig */,
+				E620361D1197D0351C9F715A /* Pods.release.xcconfig */,
+				C62B808BC4AC1D249F2329FA /* Pods-LBPWWDCTests.debug.xcconfig */,
+				AA8F495A62236B568A4DC73D /* Pods-LBPWWDCTests.release.xcconfig */,
+				D3E307CDB677BC022F10A267 /* Pods-LBPWWDC.release.xcconfig */,
+				7B9C047DDD58766A784D046D /* Pods-LBPWWDC.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A72DF2D41C3AE0260091C5C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F1081C34407C009A68FB /* SessionTests.m */,
+				A7E3F10A1C344BFA009A68FB /* PlatformTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A72DF2D51C3AE0310091C5C4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB3B721C3B09A9009C46B3 /* JsonUtilsTests.m */,
+				A7E3F10F1C344E1F009A68FB /* SessionServicesTests.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		A72DF2D61C3AE03D0091C5C4 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7FA019E1C3AADC7009216B9 /* SessionsListViewModelTests.m */,
+				A72DF2D21C3AD9AC0091C5C4 /* SessionViewModelTests.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		A7DF7D8C1C3C2737007CCF97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7DF7D8A1C3C272F007CCF97 /* SessionDetailsViewControllerTests.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A7DF7D8D1C3C2B9B007CCF97 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F1111C345054009A68FB /* sessions.json */,
+			);
+			name = Stubs;
+			sourceTree = "<group>";
+		};
+		A7E3F0B01C341714009A68FB = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0BB1C341714009A68FB /* LBPWWDC */,
+				A7E3F0D81C341715009A68FB /* LBPWWDCTests */,
+				A7E3F0BA1C341714009A68FB /* Products */,
+				3D1E1681FB4BF8278B38E354 /* Pods */,
+				0FCD7163C93268E3759D9A17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E3F0BA1C341714009A68FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0B91C341714009A68FB /* LBPWWDC.app */,
+				A7E3F0D51C341715009A68FB /* LBPWWDCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E3F0BB1C341714009A68FB /* LBPWWDC */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0BF1C341715009A68FB /* AppDelegate.h */,
+				A7E3F0C01C341715009A68FB /* AppDelegate.m */,
+				A7E3F0F91C34312A009A68FB /* Networking */,
+				A7E3F0F11C341E19009A68FB /* Core Data */,
+				A7E3F11A1C34628F009A68FB /* View Model */,
+				A7E3F1161C34613D009A68FB /* Controllers */,
+				A7E3F0FA1C343144009A68FB /* View */,
+				A7E3F0CB1C341715009A68FB /* Assets.xcassets */,
+				A7E3F0BC1C341715009A68FB /* Supporting Files */,
+			);
+			path = LBPWWDC;
+			sourceTree = "<group>";
+		};
+		A7E3F0BC1C341715009A68FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0D01C341715009A68FB /* Info.plist */,
+				A7E3F0BD1C341715009A68FB /* main.m */,
+				A7E3F0E41C3419C8009A68FB /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7E3F0D81C341715009A68FB /* LBPWWDCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0DB1C341715009A68FB /* Info.plist */,
+				A7E3F10C1C344C71009A68FB /* TestUtils.h */,
+				A7E3F10D1C344C71009A68FB /* TestUtils.m */,
+				A7DF7D8D1C3C2B9B007CCF97 /* Stubs */,
+				A72DF2D51C3AE0310091C5C4 /* Networking */,
+				A72DF2D41C3AE0260091C5C4 /* Model */,
+				A72DF2D61C3AE03D0091C5C4 /* View Model */,
+				A7DF7D8C1C3C2737007CCF97 /* Controllers */,
+			);
+			path = LBPWWDCTests;
+			sourceTree = "<group>";
+		};
+		A7E3F0F11C341E19009A68FB /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0C81C341715009A68FB /* LBPWWDC.xcdatamodeld */,
+				A7E3F0F21C341E2E009A68FB /* Managed Objects */,
+				A7E3F0FE1C343507009A68FB /* Categories */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		A7E3F0F21C341E2E009A68FB /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A72DF2DA1C3AF3580091C5C4 /* Platform+CoreDataProperties.h */,
+				A72DF2DB1C3AF3580091C5C4 /* Platform+CoreDataProperties.m */,
+				A72DF2DC1C3AF3580091C5C4 /* Platform.h */,
+				A72DF2DD1C3AF3580091C5C4 /* Platform.m */,
+				A7E3F0E91C341E03009A68FB /* Session+CoreDataProperties.h */,
+				A7E3F0EA1C341E03009A68FB /* Session+CoreDataProperties.m */,
+				A7E3F0EB1C341E03009A68FB /* Session.h */,
+				A7E3F0EC1C341E03009A68FB /* Session.m */,
+			);
+			name = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		A7E3F0F91C34312A009A68FB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0FF1C3435DB009A68FB /* JsonUtils.h */,
+				A7E3F1001C3435DB009A68FB /* JsonUtils.m */,
+				A7E3F0F61C342DC1009A68FB /* URLSessionManager.h */,
+				A7E3F0F71C342DC1009A68FB /* URLSessionManager.m */,
+				A7E3F0F31C341F29009A68FB /* SessionServices.h */,
+				A7E3F0F41C341F29009A68FB /* SessionServices.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		A7E3F0FA1C343144009A68FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0CD1C341715009A68FB /* LaunchScreen.storyboard */,
+				A7E3F0C51C341715009A68FB /* Main.storyboard */,
+				A7E3F11E1C346AFD009A68FB /* SessionCell.h */,
+				A7E3F11F1C346AFD009A68FB /* SessionCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A7E3F0FE1C343507009A68FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F0FB1C3434F7009A68FB /* Session+Create.h */,
+				A7E3F0FC1C3434F7009A68FB /* Session+Create.m */,
+				A7E3F1021C3439F0009A68FB /* Platform+Create.h */,
+				A7E3F1031C3439F0009A68FB /* Platform+Create.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A7E3F1161C34613D009A68FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F1131C346138009A68FB /* SessionsListViewController.h */,
+				A7E3F1141C346138009A68FB /* SessionsListViewController.m */,
+				A72DF2D71C3AEC2C0091C5C4 /* SessionDetailsViewController.h */,
+				A72DF2D81C3AEC2C0091C5C4 /* SessionDetailsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A7E3F11A1C34628F009A68FB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7E3F1171C34628A009A68FB /* SessionsListViewModel.h */,
+				A7E3F1181C34628A009A68FB /* SessionsListViewModel.m */,
+				A7E3F11B1C3467D7009A68FB /* SessionViewModel.h */,
+				A7E3F11C1C3467D7009A68FB /* SessionViewModel.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E3F0B81C341714009A68FB /* LBPWWDC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E3F0DE1C341715009A68FB /* Build configuration list for PBXNativeTarget "LBPWWDC" */;
+			buildPhases = (
+				A892BDB3BB3AB98EC22D70EA /* Check Pods Manifest.lock */,
+				A7E3F0B51C341714009A68FB /* Sources */,
+				A7E3F0B61C341714009A68FB /* Frameworks */,
+				A7E3F0B71C341714009A68FB /* Resources */,
+				7913544050703F87FCF01839 /* Embed Pods Frameworks */,
+				9700DBF7050726943BA09E0F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBPWWDC;
+			productName = LBPWWDC;
+			productReference = A7E3F0B91C341714009A68FB /* LBPWWDC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7E3F0D41C341715009A68FB /* LBPWWDCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E3F0E11C341715009A68FB /* Build configuration list for PBXNativeTarget "LBPWWDCTests" */;
+			buildPhases = (
+				AF219298C826F68C2F53A3D5 /* Check Pods Manifest.lock */,
+				A7E3F0D11C341715009A68FB /* Sources */,
+				A7E3F0D21C341715009A68FB /* Frameworks */,
+				A7E3F0D31C341715009A68FB /* Resources */,
+				263DCFA325098B1EE44A21BC /* Embed Pods Frameworks */,
+				D183754A553F999B83519F88 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7E3F0D71C341715009A68FB /* PBXTargetDependency */,
+			);
+			name = LBPWWDCTests;
+			productName = LBPWWDCTests;
+			productReference = A7E3F0D51C341715009A68FB /* LBPWWDCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E3F0B11C341714009A68FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = leonardobarros;
+				TargetAttributes = {
+					A7E3F0B81C341714009A68FB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A7E3F0D41C341715009A68FB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A7E3F0B81C341714009A68FB;
+					};
+				};
+			};
+			buildConfigurationList = A7E3F0B41C341714009A68FB /* Build configuration list for PBXProject "LBPWWDC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7E3F0B01C341714009A68FB;
+			productRefGroup = A7E3F0BA1C341714009A68FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E3F0B81C341714009A68FB /* LBPWWDC */,
+				A7E3F0D41C341715009A68FB /* LBPWWDCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7E3F0B71C341714009A68FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E3F0CF1C341715009A68FB /* LaunchScreen.storyboard in Resources */,
+				A7E3F0CC1C341715009A68FB /* Assets.xcassets in Resources */,
+				A7E3F0C71C341715009A68FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E3F0D31C341715009A68FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E3F1121C345054009A68FB /* sessions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		263DCFA325098B1EE44A21BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBPWWDCTests/Pods-LBPWWDCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7913544050703F87FCF01839 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBPWWDC/Pods-LBPWWDC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9700DBF7050726943BA09E0F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBPWWDC/Pods-LBPWWDC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A892BDB3BB3AB98EC22D70EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF219298C826F68C2F53A3D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D183754A553F999B83519F88 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBPWWDCTests/Pods-LBPWWDCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E3F0B51C341714009A68FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72DF2D91C3AEC2C0091C5C4 /* SessionDetailsViewController.m in Sources */,
+				A7E3F1041C3439F0009A68FB /* Platform+Create.m in Sources */,
+				A7E3F1191C34628A009A68FB /* SessionsListViewModel.m in Sources */,
+				A7E3F0EF1C341E03009A68FB /* Session+CoreDataProperties.m in Sources */,
+				A7E3F0C11C341715009A68FB /* AppDelegate.m in Sources */,
+				A72DF2DF1C3AF3580091C5C4 /* Platform.m in Sources */,
+				A7E3F0F81C342DC1009A68FB /* URLSessionManager.m in Sources */,
+				A7E3F0BE1C341715009A68FB /* main.m in Sources */,
+				A7E3F0F51C341F29009A68FB /* SessionServices.m in Sources */,
+				A72DF2DE1C3AF3580091C5C4 /* Platform+CoreDataProperties.m in Sources */,
+				A7E3F11D1C3467D7009A68FB /* SessionViewModel.m in Sources */,
+				A7E3F0CA1C341715009A68FB /* LBPWWDC.xcdatamodeld in Sources */,
+				A7E3F0FD1C3434F7009A68FB /* Session+Create.m in Sources */,
+				A7E3F1201C346AFD009A68FB /* SessionCell.m in Sources */,
+				A7E3F1151C346138009A68FB /* SessionsListViewController.m in Sources */,
+				A7E3F0F01C341E03009A68FB /* Session.m in Sources */,
+				A7E3F1011C3435DB009A68FB /* JsonUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E3F0D11C341715009A68FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E3F1101C344E1F009A68FB /* SessionServicesTests.m in Sources */,
+				A7FA019F1C3AADC7009216B9 /* SessionsListViewModelTests.m in Sources */,
+				A7DF7D8B1C3C272F007CCF97 /* SessionDetailsViewControllerTests.m in Sources */,
+				A7BB3B731C3B09A9009C46B3 /* JsonUtilsTests.m in Sources */,
+				A7E3F10B1C344BFA009A68FB /* PlatformTests.m in Sources */,
+				A72DF2D31C3AD9AC0091C5C4 /* SessionViewModelTests.m in Sources */,
+				A7E3F1091C34407C009A68FB /* SessionTests.m in Sources */,
+				A7E3F10E1C344C71009A68FB /* TestUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7E3F0D71C341715009A68FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7E3F0B81C341714009A68FB /* LBPWWDC */;
+			targetProxy = A7E3F0D61C341715009A68FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7E3F0C51C341715009A68FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E3F0C61C341715009A68FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7E3F0CD1C341715009A68FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7E3F0CE1C341715009A68FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7E3F0DD1C341715009A68FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E3F0E01C341715009A68FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E307CDB677BC022F10A267 /* Pods-LBPWWDC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = LBPWWDC/PrefixHeader.pch;
+				INFOPLIST_FILE = LBPWWDC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leonardobarros.LBPWWDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7E3F0E31C341715009A68FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8F495A62236B568A4DC73D /* Pods-LBPWWDCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = LBPWWDCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leonardobarros.LBPWWDCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBPWWDC.app/LBPWWDC";
+			};
+			name = Release;
+		};
+		A7E3F1051C34400A009A68FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		A7E3F1061C34400A009A68FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9C047DDD58766A784D046D /* Pods-LBPWWDC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = LBPWWDC/PrefixHeader.pch;
+				INFOPLIST_FILE = LBPWWDC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leonardobarros.LBPWWDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7E3F1071C34400A009A68FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62B808BC4AC1D249F2329FA /* Pods-LBPWWDCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = LBPWWDCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leonardobarros.LBPWWDCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBPWWDC.app/LBPWWDC";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E3F0B41C341714009A68FB /* Build configuration list for PBXProject "LBPWWDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E3F0DD1C341715009A68FB /* Release */,
+				A7E3F1051C34400A009A68FB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E3F0DE1C341715009A68FB /* Build configuration list for PBXNativeTarget "LBPWWDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E3F0E01C341715009A68FB /* Release */,
+				A7E3F1061C34400A009A68FB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E3F0E11C341715009A68FB /* Build configuration list for PBXNativeTarget "LBPWWDCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E3F0E31C341715009A68FB /* Release */,
+				A7E3F1071C34400A009A68FB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7E3F0C81C341715009A68FB /* LBPWWDC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7E3F0C91C341715009A68FB /* LBPWWDC.xcdatamodel */,
+			);
+			currentVersion = A7E3F0C91C341715009A68FB /* LBPWWDC.xcdatamodel */;
+			path = LBPWWDC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7E3F0B11C341714009A68FB /* Project object */;
+}

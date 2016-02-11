@@ -1,0 +1,24 @@
+PODS:
+  - Expecta (1.0.5)
+  - MagicalRecord (2.3.0)
+  - OCMock (3.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0)
+  - MagicalRecord (~> 2.3)
+  - OCMock (~> 3.2)
+  - SDWebImage (~> 3.7)
+  - Specta (~> 1.0)
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+COCOAPODS: 0.39.0

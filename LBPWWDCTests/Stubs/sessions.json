@@ -1,0 +1,256 @@
+{
+    "updated": "2015-06-26T14:09:53-07:00",
+    "tracks": [
+        "App Frameworks",
+        "Distribution",
+        "Featured",
+        "Graphics and Games",
+        "System Frameworks",
+        "Media",
+        "Developer Tools",
+        "Design"
+    ],
+    "sessions": [
+        {
+            "date": "2015-06-11",
+            "description": "Advanced layouts and animations are essential to your app's interface. Gain insights into group layout mechanics and the new element animation APIs introduced in WatchKit for watchOS 2. Understand how to create layouts that work well with animations and learn other techniques to add liveliness to your apps.",
+            "focus": [
+                "watchOS"
+            ],
+            "id": 216,
+            "title": "Layout and Animation Techniques for WatchKit",
+            "track": "App Frameworks",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/images/216_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/images/216_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/images/216_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/216_hd_layout_and_animation_techniques_for_watchkit.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/216_sd_layout_and_animation_techniques_for_watchkit.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/216_layout_and_animation_techniques_for_watchkit.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/216isrjt4ku9w4/216/subtitles/eng/216_sd_layout_and_animation_techniques_for_watchkit.vtt"
+        },
+        {
+            "date": "2015-06-10",
+            "description": "Get more acquainted with iTunes Connect, your gateway to the App Store. Dive into unique services like TestFlight for beta testing and Transporter to help automate metadata setup for your apps. Discover the power of adding rich media to your app store page, the benefits of broadening your distribution path globally, and the abundance of help resources.",
+            "focus": [
+                "iOS",
+                "OS X",
+                "watchOS"
+            ],
+            "id": 304,
+            "title": "iTunes Connect: Development to Distribution",
+            "track": "Distribution",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/images/304_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/images/304_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/images/304_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/304_hd_itunes_connect_development_to_distribution.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/304_sd_itunes_connect_development_to_distribution.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/304_itunes_connect_development_to_distribution.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/304ywrr62d/304/subtitles/eng/304_sd_itunes_connect_development_to_distribution.vtt"
+        },
+        {
+            "date": "2015-06-08",
+            "description": "Join us for an unforgettable award ceremony celebrating developers and their outstanding work. The 2015 Apple Design Awards recognize state of the art iOS, OS X, and Apple Watch apps that reflect excellence in design and innovation.",
+            "focus": [
+                "iOS",
+                "OS X",
+                "watchOS"
+            ],
+            "id": 103,
+            "title": "Apple Design Awards",
+            "track": "Featured",
+            "live_streamed": true,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/images/103_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/images/103_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/images/103_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/103_hd_apple_design_awards.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/103_sd_apple_design_awards.mp4",
+            "slides": null,
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/103ot7lzkdri2fvn1iyh/103/subtitles/eng/103_sd_apple_design_awards.vtt"
+        },
+        {
+            "date": "2015-06-09",
+            "description": "WatchKit for watchOS 2 introduces many new capabilities for creating responsive Watch experiences. Beyond a faster architecture, learn about all new support for the Digital Crown, fluid animations, and media playback and recording. Find out how to make use of accelerometer and heart rate data, as well as providing physical feedback via the Taptic Engine.",
+            "focus": [
+                "watchOS"
+            ],
+            "id": 105,
+            "title": "Introducing WatchKit for watchOS 2",
+            "track": "Featured",
+            "live_streamed": true,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/images/105_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/images/105_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/images/105_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/105_hd_introducing_watchkit_for_watchos_2.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/105_sd_introducing_watchkit_for_watchos_2.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/105_introducing_watchkit_for_watchos_2.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/subtitles/eng/105_sd_introducing_watchkit_for_watchos_2.vtt"
+        },
+        {
+            "date": "2015-06-09",
+            "description": "iOS has transformed the lives of many users with a range of physical and learning disabilities. Learn how to create apps that leverage the power and simplicity of Apple's assistive technologies to make them accessible to the broadest audience possible. Hear about the latest advancements in iOS accessibility and how you can take advantage of them today.",
+            "focus": [
+                "iOS"
+            ],
+            "id": 201,
+            "title": "iOS Accessibility",
+            "track": "App Frameworks",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/images/201_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/images/201_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/images/201_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/201_hd_ios_accessibility.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/201_sd_ios_accessibility.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/201_ios_accessibility.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/201pps6n6g0nsnz/201/subtitles/eng/201_sd_ios_accessibility.vtt"
+        },
+        {
+            "date": "2015-06-09",
+            "description": "Building Watch apps with Xcode 7 is easy and straight-forward. Learn how to build and debug a Watch app for watchOS 2 from the ground up. Walk through adding a Watch app to an existing application, building the user interface, debugging and profiling with Instruments, and discover how to efficiently communicate between iPhone and Apple Watch.",
+            "focus": [
+                "watchOS"
+            ],
+            "id": 108,
+            "title": "Building Watch Apps",
+            "track": "Featured",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/images/108_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/images/108_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/images/108_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/108_hd_building_watch_apps.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/108_sd_building_watch_apps.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/108_building_watch_apps.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/1086gvs7f4vryixs49s6/108/subtitles/eng/108_sd_building_watch_apps.vtt"
+        },
+        {
+            "date": "2015-06-09",
+            "description": "Learn about the latest developments in managing Apple devices in large organizations. Learn the latest techniques to wirelessly configure settings, monitor compliance with policies, install apps and bulk configure devices with ease.",
+            "focus": [
+                "iOS",
+                "OS X"
+            ],
+            "id": 301,
+            "title": "What's New in Managing Apple Devices",
+            "track": "Distribution",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/images/301_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/images/301_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/images/301_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/301_hd_whats_new_in_managing_apple_devices.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/301_sd_whats_new_in_managing_apple_devices.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/301_whats_new_in_managing_apple_devices.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/301tcfp66f/301/subtitles/eng/301_sd_whats_new_in_managing_apple_devices.vtt"
+        },
+        {
+            "date": "2015-06-10",
+            "description": "ReplayKit provides an easy-to-use framework that lets players record their gameplay — amazing plays, great victories, or solutions to tough challenges — and share video with other players and viewers online. Get introduced to the ReplayKit framework and see how to enable its capability for sharing game video and audio in your games and other apps. Then get the latest news about Game Center, Apple's social gaming network. Learn about the new model for pre-release testing with Game Center and enhancements for multiplayer games.",
+            "focus": [
+                "iOS",
+                "OS X"
+            ],
+            "id": 605,
+            "title": "Going Social with ReplayKit and Game Center",
+            "track": "Graphics and Games",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/images/605_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/images/605_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/images/605_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/605_hd_going_social_with_replaykit_and_game_center.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/605_sd_going_social_with_replaykit_and_game_center.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/605_going_social_with_replaykit_and_game_center.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/6053hq2fz0ebo0lm/605/subtitles/eng/605_sd_going_social_with_replaykit_and_game_center.vtt"
+        },
+        {
+            "date": "2015-06-08",
+            "description": "WWDC 2015 Platforms State of the Union",
+            "focus": [
+                "iOS",
+                "OS X",
+                "watchOS"
+            ],
+            "id": 102,
+            "title": "Platforms State of the Union",
+            "track": "Featured",
+            "live_streamed": true,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/images/102_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/images/102_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/images/102_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/102_hd_platforms_state_of_the_union.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/102_sd_platforms_state_of_the_union.mp4",
+            "slides": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/102_platforms_state_of_the_union.pdf",
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/subtitles/eng/102_sd_platforms_state_of_the_union.vtt"
+        },
+        {
+            "date": "2015-06-08",
+            "description": "WWDC 2015 Keynote",
+            "focus": [
+                "iOS",
+                "OS X",
+                "watchOS"
+            ],
+            "id": 101,
+            "title": "Keynote",
+            "track": "Featured",
+            "live_streamed": false,
+            "related": [],
+            "images": {
+                "hero": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/images/101_600x600.jpg",
+                "shelf": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/images/101_734x413.jpg",
+                "playback": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/images/101_220x220.jpg"
+            },
+            "download_hd": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/101_hd_keynote.mp4",
+            "download_sd": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/101_sd_keynote.mp4",
+            "slides": null,
+            "year": 2015,
+            "url": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/hls_vod_mvp.m3u8",
+            "subtitles": "http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/subtitles/eng/101_sd_keynote.vtt"
+        }
+    ],
+    "live_stream_url": "http://devstreaming.apple.com/videos/wwdc/2015/live/presidio_greys2jog1ot6u7/hls_mvp.m3u8"
+}

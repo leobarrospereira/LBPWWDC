@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Platform" representedClassName="Platform" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sessions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Session" inverseName="platforms" inverseEntity="Session" syncable="YES"/>
+    </entity>
+    <entity name="Session" representedClassName="Session" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageHeroURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePlaybackURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageShelfURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="track" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="platforms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Platform" inverseName="sessions" inverseEntity="Platform" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Platform" positionX="-54" positionY="63" width="128" height="75"/>
+        <element name="Session" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
